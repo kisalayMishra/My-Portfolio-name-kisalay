@@ -78,7 +78,7 @@ export default function Projects() {
                 Mobile Sales Analysis Dashboard
               </h3>
               <p className="font-sans text-neutral-600 text-xs md:text-sm leading-relaxed mb-6 font-light">
-                Developed a Power BI dashboard to analyze regional sales, top-performing brands, pricing trends, and KPIs using Python, SQL, Excel, and Power BI.
+               Developed an interactive Power BI dashboard to analyze mobile sales performance across regions, brands, models, and payment methods. Implemented KPIs, DAX measures, drill-through reports, and dynamic filters to provide business insights and support data-driven decision-making.
               </p>
 
               {/* Live Interactive Power BI Mockup Widget */}
@@ -172,7 +172,7 @@ export default function Projects() {
               {/* Project Tech stack badges */}
               <div className="mb-8">
                 <div className="flex flex-wrap gap-2">
-                  {["Python", "Power BI", "SQL", "Excel"].map((tech) => (
+                  {["Power BI", "DAX", "Power Query", "Excel", "SQL"].map((tech) => (
                     <span
                       key={tech}
                       className="font-mono text-[10px] bg-neutral-50 text-neutral-600 px-3 py-1 rounded-md border border-neutral-200/50"
@@ -194,7 +194,12 @@ export default function Projects() {
                 Live Demo Widget
               </button>
               <button
-                onClick={() => window.open("https://github.com/kisalay7974854943", "_blank")}
+                onClick={() =>
+  window.open(
+    "https://github.com/kisalayMishra/Mobile-Sales-Analysis-Power-BI",
+    "_blank"
+  )
+}
                 className="px-4 py-3 rounded-xl border border-neutral-200 bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-950 transition-all cursor-pointer shadow-xs"
               >
                 <Github className="w-4 h-4" />
@@ -224,7 +229,7 @@ export default function Projects() {
                 Blinkit Sales Data Analysis
               </h3>
               <p className="font-sans text-neutral-600 text-xs md:text-sm leading-relaxed mb-6 font-light">
-                Performed comprehensive sales analysis using Python (Pandas/Seaborn) and SQL to identify outlet performance, sales trends, customer demand, and business insights.
+              Performed end-to-end exploratory data analysis on Blinkit grocery sales data using Python. Cleaned and transformed the dataset, created visualizations, and extracted business insights regarding outlet performance, product categories, customer preferences, and sales trends.
               </p>
 
               {/* Live Interactive SQL Mockup Widget */}
@@ -293,7 +298,7 @@ export default function Projects() {
               {/* Project Tech stack badges */}
               <div className="mb-8">
                 <div className="flex flex-wrap gap-2">
-                  {["Python", "SQL", "Pandas", "Matplotlib", "Seaborn"].map((tech) => (
+                  {["Python", "Pandas", "NumPy" ,"Matplotlib", "Seaborn", "Jupyter Notebook"].map((tech) => (
                     <span
                       key={tech}
                       className="font-mono text-[10px] bg-neutral-50 text-neutral-600 px-3 py-1 rounded-md border border-neutral-200/50"
@@ -308,7 +313,12 @@ export default function Projects() {
             {/* Action buttons */}
             <div className="flex gap-3 pt-4 border-t border-neutral-100">
               <button
-                onClick={() => window.open("https://github.com/kisalay7974854943", "_blank")}
+                onClick={() =>
+  window.open(
+    "https://github.com/kisalayMishra/Blinkit_Analysis_Python",
+    "_blank"
+  )
+}
                 className="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-neutral-950 text-white font-medium text-xs hover:bg-neutral-800 transition-all cursor-pointer shadow-xs"
               >
                 <Github className="w-3.5 h-3.5" />

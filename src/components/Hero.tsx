@@ -162,7 +162,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
           >
             {/* The actual uploaded portrait image */}
             <img
-              src="/src/assets/images/kisalay_Portfolio_Image.jpeg"
+              src="/src/assets/images/kisalay_Portfolio_Image.jpg"
               alt="Kisalay Kumar Mishra - Data Analyst Portrait"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

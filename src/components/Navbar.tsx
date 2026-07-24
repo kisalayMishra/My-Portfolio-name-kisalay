@@ -181,17 +181,6 @@ export default function Navbar({ onOpenBookCall, onOpenResume }: NavbarProps) {
                 <FileText className="w-4 h-4" />
                 Download CV
               </button>
-              <button
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenBookCall();
-                }}
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-neutral-950 text-white text-sm font-medium"
-              >
-                <Calendar className="w-4 h-4" />
-                Book a Call
-                <ArrowUpRight className="w-4 h-4" />
-              </button>
             </div>
           </motion.div>
         )}
